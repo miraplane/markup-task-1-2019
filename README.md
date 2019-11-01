@@ -2,16 +2,17 @@
 
 Перед выполнением задания внимательно прочитайте:
 
-- [О всех этапах проверки задания](https://github.com/urfu-2018/guides/blob/master/workflow/overall.md)
-- [Как отправить пулл](https://github.com/urfu-2018/guides/blob/master/workflow/pull.md)
-- [Как пройти тесты](https://github.com/urfu-2018/guides/blob/master/workflow/test.md)
-- Правила оформления [javascript](https://github.com/urfu-2018/guides/blob/master/codestyle/js.md), [HTML](https://github.com/urfu-2018/guides/blob/master/codestyle/html.md) и [CSS](https://github.com/urfu-2018/guides/blob/master/codestyle/css.md) кода
+- [О всех этапах проверки задания](https://github.com/urfu-2019/guides/blob/master/workflow/overall.md)
+- [О том, как отправить пулл](https://github.com/urfu-2019/guides/blob/master/workflow/pull.md)
+- [О том, как пройти тесты](https://github.com/urfu-2019/guides/blob/master/workflow/test.md)
+- Правила оформления [javascript](https://github.com/urfu-2019/guides/blob/master/codestyle/js.md), [HTML](https://github.com/urfu-2019/guides/blob/master/codestyle/html.md) и [CSS](https://github.com/urfu-2019/guides/blob/master/codestyle/css.md) кода
 
 ## Основное задание
 
 В папке `tasks` подготовлено 20 заданий на использование различных селекторов.  
 Вы должны поменять только содержимое тега `<style>` так, чтобы левая половина совпала с картинкой справа, либо с условиями, которые там описаны.  
-Каждую задачу можно решить небольшим количеством кода, главное – подобрать правильный селектор.  
+Каждую задачу можно решить небольшим количеством кода, главное – подобрать правильный селектор.
+> :warning: Постарайтесь решать задачи наиболее изящным и универсальным способом, например, не использовать селекторы вида :nth-child(2) там, где это не нужно
 
 ## Примечание
 

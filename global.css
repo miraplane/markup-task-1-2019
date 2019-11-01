@@ -68,8 +68,8 @@ code
     text-decoration: none;
 }
 
-.global-scope_4,
-.global-scope_5,
+.global-scope_04,
+.global-scope_05,
 .global-scope_15
 {
     display: block;
@@ -85,12 +85,12 @@ code
     background-color: #fff;
 }
 
-.global-scope_4 article
+.global-scope_04 article
 {
     padding: 10px 0;
 }
 
-.global-scope_4 hr
+.global-scope_04 hr
 {
     margin: 0;
 }

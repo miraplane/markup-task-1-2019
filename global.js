@@ -1,4 +1,8 @@
 (function (window, document) {
+    function padZero(number) {
+        return number < 10 ? '0' + number : number;
+    }
+
     var n = window.location.href.match(/(\d+)\.html/)[1];
 
     var count = 20;
@@ -7,8 +11,8 @@
 
     document.querySelector('.global-heading').innerHTML = 'Задача №' + n;
 
-    var prevHref = (next > count ? 1 : next) + '.html';
-    var nextHref = (prev < 1 ? count : prev) + '.html';
+    var prevHref = padZero(next > count ? 1 : next) + '.html';
+    var nextHref = padZero(prev < 1 ? count : prev) + '.html';
 
     document.querySelector('.global-next').href = prevHref;
     document.querySelector('.global-prev').href = nextHref;
