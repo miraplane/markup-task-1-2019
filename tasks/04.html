@@ -12,7 +12,15 @@
 
         <main class="global-results">
             <style>
-                /* your styles here */
+                hr ~ article:not(:first-of-type)
+                {
+                    border-top: 1px solid #000;
+                }
+
+                hr ~ article:nth-child(even)
+                {
+                    background: #ff6;
+                }
             </style>
 
             <section class="global-result">
