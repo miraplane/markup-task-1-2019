@@ -12,28 +12,34 @@
 
         <main class="global-results">
             <style>
-                article > a:hover
+                a:hover
                 {
                     opacity: .5;
                 }
 
-                article > a[href]:link
+                a:active,
+                a:visited
+                {
+                    opacity: 1;
+                }
+
+                a[href]:link
                 {
                     color: #6698ff;
                 }
 
-                article > a[href]:hover
+                a[href]:hover
                 {
                     color: #ff6698;
                     opacity: 1;
                 }
 
-                article > a[href]:active
+                a[href]:active
                 {
                     color: #98ff66;
                 }
 
-                article > a[href]:visited
+                a[href]:visited
                 {
                     color: #ffb366;
                 }

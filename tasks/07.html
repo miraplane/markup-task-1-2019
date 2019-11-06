@@ -12,9 +12,15 @@
 
         <main class="global-results">
             <style>
-                article > div:not(:first-child):not(:last-child) > img
+                div
                 {
                     opacity: .3;
+                }
+
+                div:first-child,
+                div:last-child
+                {
+                    opacity: 1;
                 }
             </style>
 
