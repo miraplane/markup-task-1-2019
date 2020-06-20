@@ -12,7 +12,15 @@
 
         <main class="global-results">
             <style>
-                /* your styles here */
+                hr ~ article:nth-of-type(n + 2)
+                {
+                    border-top: 1px solid #000;
+                }
+
+                hr ~ article:nth-of-type(odd)
+                {
+                    background: #ff6;
+                }
             </style>
 
             <section class="global-result">
